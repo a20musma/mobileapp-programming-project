@@ -5,7 +5,9 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener{
+
+    private final String JSON_FILE = "cars.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
 
+    @Override
+    public void onPostExecute(String json) {
+
+    }
 }

@@ -1,0 +1,75 @@
+[
+  {
+    "ID":"1_ferrari",
+    "name":"Ferrari",
+    "type":"a20musma",
+    "company":"",
+    "location":"Italia",
+    "category":"",
+    "size":1664,
+    "cost":40000,
+    "auxdata": {
+      "wiki": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "img": "https://sv.wikipedia.org/wiki/Ferrari"
+    }
+
+
+
+  },
+  {
+    "ID":"2_bugatti_veron",
+    "name":"Bugatti Veyron",
+    "type":"a20musma",
+    "company":"",
+    "location":"France",
+    "category":"",
+    "size":1888,
+    "cost":27000000,
+    "auxdata": {
+      "wiki": "https://images.unsplash.com/photo-1566023888476-6f17e362fbb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "img": "https://sv.wikipedia.org/wiki/Bugatti"
+    }
+  },
+  {
+    "ID":"3_Porsche_911",
+    "name":"Porsche 911",
+    "type":"a20musma",
+    "company":"",
+    "location":"Germany",
+    "category":"",
+    "size":1580,
+    "cost":1000000,
+    "auxdata": {
+      "wiki": "https://images.unsplash.com/photo-1634673970798-a15ae56f6c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+      "img": "https://sv.wikipedia.org/wiki/Porsche"
+    }
+  },
+  {
+    "ID":"4_koenigsegg",
+    "name":"Koenigsegg",
+    "type":"a20musma",
+    "company":"",
+    "location":"Sweden",
+    "category":"",
+    "size":1435,
+    "cost":18250000,
+    "auxdata": {
+      "wiki": "https://images.unsplash.com/photo-1566024164372-0281f1133aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "img": "https://sv.wikipedia.org/wiki/Koenigsegg"
+    }
+  },
+  {
+    "ID":"5_mcLaren senna",
+    "name":"McLaren Senna",
+    "type":"a20musma",
+    "company":"",
+    "location":"United Kingdom",
+    "category":"",
+    "size":1200,
+    "cost":10000000,
+    "auxdata": {
+      "wiki": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/McLaren_Senna_Genf_2018.jpg/1920px-McLaren_Senna_Genf_2018.jpg",
+      "img": "https://sv.wikipedia.org/wiki/McLaren_Senna"
+    }
+  }
+]
