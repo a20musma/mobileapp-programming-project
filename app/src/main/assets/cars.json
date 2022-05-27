@@ -9,8 +9,8 @@
     "size":1664,
     "cost":40000,
     "auxdata": {
-      "wiki": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "img": "https://sv.wikipedia.org/wiki/Ferrari"
+      "img": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "wiki": "https://sv.wikipedia.org/wiki/Ferrari"
     }
 
 
@@ -26,8 +26,8 @@
     "size":1888,
     "cost":27000000,
     "auxdata": {
-      "wiki": "https://images.unsplash.com/photo-1566023888476-6f17e362fbb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
-      "img": "https://sv.wikipedia.org/wiki/Bugatti"
+      "img": "https://images.unsplash.com/photo-1566023888476-6f17e362fbb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "wiki": "https://sv.wikipedia.org/wiki/Bugatti"
     }
   },
   {
@@ -40,8 +40,8 @@
     "size":1580,
     "cost":1000000,
     "auxdata": {
-      "wiki": "https://images.unsplash.com/photo-1634673970798-a15ae56f6c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-      "img": "https://sv.wikipedia.org/wiki/Porsche"
+      "img": "https://images.unsplash.com/photo-1634673970798-a15ae56f6c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+      "wiki": "https://sv.wikipedia.org/wiki/Porsche"
     }
   },
   {
@@ -54,8 +54,8 @@
     "size":1435,
     "cost":18250000,
     "auxdata": {
-      "wiki": "https://images.unsplash.com/photo-1566024164372-0281f1133aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-      "img": "https://sv.wikipedia.org/wiki/Koenigsegg"
+      "img": "https://images.unsplash.com/photo-1566024164372-0281f1133aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "wiki": "https://sv.wikipedia.org/wiki/Koenigsegg"
     }
   },
   {
@@ -68,8 +68,8 @@
     "size":1200,
     "cost":10000000,
     "auxdata": {
-      "wiki": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/McLaren_Senna_Genf_2018.jpg/1920px-McLaren_Senna_Genf_2018.jpg",
-      "img": "https://sv.wikipedia.org/wiki/McLaren_Senna"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/McLaren_Senna_Genf_2018.jpg/1920px-McLaren_Senna_Genf_2018.jpg",
+      "wiki": "https://sv.wikipedia.org/wiki/McLaren_Senna"
     }
   }
 ]

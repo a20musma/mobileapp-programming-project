@@ -4,17 +4,22 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener{
+import com.google.gson.Gson;
 
+public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener{
+    private Cars[] cars;
 
 
     public void showInternalWebPage(){
         // TODO: Add your code for showing internal web page here
     }
+
 
     private final String JSON_FILE = "cars.json";
 
@@ -24,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        new JsonFile(this, this).execute(JSON_FILE);
     }
 
     @Override
@@ -53,6 +60,17 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
 
     @Override
     public void onPostExecute(String json) {
+        Log.d("==>", json);
+
+        Gson gson = new Gson();
+        cars = gson.fromJson(json,Cars[].class);
+
+        ArrayAdapter<Cars> arrayAdapter = new ArrayAdapter<>(this, R.layout.listview_item, R.id.item, cars);
+
+
+
+        ListView listView = findViewById(R.id.list_wiew  );
+        listView.setAdapter(arrayAdapter);
 
     }
 }

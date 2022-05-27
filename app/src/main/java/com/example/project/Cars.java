@@ -58,4 +58,8 @@ public class Cars {
     public Auxdata getAuxdata() {
         return auxdata;
     }
+
+
+    @Override
+    public String toString(){return name + "     Location: " + location + "    cost: "+ cost+"Kr";}
 }
