@@ -61,5 +61,5 @@ public class Cars {
 
 
     @Override
-    public String toString(){return name + "     Location: " + location + "    cost: "+ cost+"Kr";}
+    public String toString(){return name + "     Location: " + location + "    cost: "+ cost+"Kr" +"  " ;}
 }
