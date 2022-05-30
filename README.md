@@ -1,7 +1,44 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+**      
+
+```
+public void showExternalWebPage(int index){
+        webView.loadUrl(cars[index].getAuxdata().getImg());
+    }
+    public void showInternalWebPage(){
+
+    }
+    
+    
+```
+
+````
+ if (id == R.id.action_external_web) {
+            Intent intent = new Intent(String.valueOf(MainActivity.class));
+
+            return true;
+        }
+
+        if (id == R.id.action_internal_web) {
+            Log.d("==>","Will display internal web page");
+            Intent intent = new Intent(MainActivity.this, SegondActivity.class);
+            startActivity(intent);
+            return true;
+        }
+````
+
+
+```
+ cars = gson.fromJson(json,Cars[].class);
+
+        ArrayAdapter<Cars> arrayAdapter = new ArrayAdapter<>(this, R.layout.listview_item, R.id.item, cars);
+        ListView listView = findViewById(R.id.list_wiew);
+        listView.setAdapter(arrayAdapter);
+```
+
+**
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
